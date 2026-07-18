@@ -1,0 +1,39 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "devDependencies": {
+        "elm": "^0.19.2-0",
+        "elm-test-rs": "^3.2.0-0",
+      },
+    },
+  },
+  "packages": {
+    "@elm_binaries/darwin_arm64": ["@elm_binaries/darwin_arm64@0.19.2-0", "", { "os": "darwin", "cpu": "arm64" }, "sha512-vhgvWAgc+jkB/oSCqI0BK1w908ivNbV6OBWIGtJgbzAXFh6RYLcGdE04+X6CTLgj+u5ufl81lsnMG6lWEMzbJg=="],
+
+    "@elm_binaries/darwin_x64": ["@elm_binaries/darwin_x64@0.19.2-0", "", { "os": "darwin", "cpu": "x64" }, "sha512-CQub4GhTa9nOHkUpi4eVGy34mxhfQOpVteLWkgsFwSHxXathKzNaOR9W7nVHR1iKEMBNcYJpXS2MoQognOUMkA=="],
+
+    "@elm_binaries/linux_arm64": ["@elm_binaries/linux_arm64@0.19.2-0", "", { "os": "linux", "cpu": "arm64" }, "sha512-50LdOV2ddvgBqcgfVKC3yCKg3/3RQdkfE7Be5k7Zj2xYLALQolk3X2ualXUmXIbP6Zo1xYKymDAfa/M1PTF+dw=="],
+
+    "@elm_binaries/linux_x64": ["@elm_binaries/linux_x64@0.19.2-0", "", { "os": "linux", "cpu": "x64" }, "sha512-03EXHZZBCEFcKKh2kKUGPsFysKXnHANYw2XubBwT3Vj/5uOI/doG0g8kij5ng8n50vma/pNwAWqvVQLSRDmPMA=="],
+
+    "@elm_binaries/win32_x64": ["@elm_binaries/win32_x64@0.19.2-0", "", { "os": "win32", "cpu": "x64" }, "sha512-FCzv6KAlo/L2/FZe3rsIH5dgFfljlgKWpMUDxVgNm1mFKep4TeFEnwRlSUh7hFnKCDVyjUL9oNL+x4OwYr3KWg=="],
+
+    "@mattpiz/elm-test-rs-darwin-arm64": ["@mattpiz/elm-test-rs-darwin-arm64@3.2.0-0", "", { "os": "darwin", "cpu": "arm64" }, "sha512-S3IiCAruDI/4aBr3XtItbc6hABxLTndI5eRUrUD+FO4YBewaEBOhYfzQ02UtfkKAT3oDnqH7TNzRJiyhXAf6FA=="],
+
+    "@mattpiz/elm-test-rs-darwin-x64": ["@mattpiz/elm-test-rs-darwin-x64@3.2.0-0", "", { "os": "darwin", "cpu": "x64" }, "sha512-OrULwzIm+8II/lIuxlakT32wnzNU6KZ/UbkkYIkORllLfBsaMmit6Pk08FmNgGroUZ4uYaqfLMFrx5KsgVxE2g=="],
+
+    "@mattpiz/elm-test-rs-linux-arm": ["@mattpiz/elm-test-rs-linux-arm@3.2.0-0", "", { "os": "linux", "cpu": "arm" }, "sha512-JUcda6mf5SVxmVvHO+9yybjUfpUjE0sOYvXwFUJNdP/gGzWyMku2UbnD/RC25l4n2fJDVNXcsuhGe/8ypEe8hA=="],
+
+    "@mattpiz/elm-test-rs-linux-arm64": ["@mattpiz/elm-test-rs-linux-arm64@3.2.0-0", "", { "os": "linux", "cpu": "arm64" }, "sha512-XRt7Se2ksJdliiSuRa6Cij10KlxyeTcWubRxQrnkWrqfHQLayprsg+QZPYx69DR7kNxZSjHY1OxcelPTX9ayZA=="],
+
+    "@mattpiz/elm-test-rs-linux-x64": ["@mattpiz/elm-test-rs-linux-x64@3.2.0-0", "", { "os": "linux", "cpu": "x64" }, "sha512-9SG9UlzeXzpF4RjFLF0sO1IdWrDdRtaxk8aTh7nqqkMY2E2ItZsFJWm7EP0PXFTvQeWnp0JNXQ6q8raHkc4QLg=="],
+
+    "@mattpiz/elm-test-rs-win32-x64": ["@mattpiz/elm-test-rs-win32-x64@3.2.0-0", "", { "os": "win32", "cpu": "x64" }, "sha512-G7ZjdzFJ/HOxUhlEBM7nnzzoM6KS6jDPROmY9Tg0zPO02+MN3/qWHwIg+W7IBo4mhTuaIHgIfRhkOz35OLj5rQ=="],
+
+    "elm": ["elm@0.19.2-0", "", { "optionalDependencies": { "@elm_binaries/darwin_arm64": "0.19.2-0", "@elm_binaries/darwin_x64": "0.19.2-0", "@elm_binaries/linux_arm64": "0.19.2-0", "@elm_binaries/linux_x64": "0.19.2-0", "@elm_binaries/win32_x64": "0.19.2-0" }, "bin": { "elm": "bin/elm" } }, "sha512-a2N4WJ6ge+cXOemAgo6tu8gN17cIzzitYoPcJRpvbiPbay1+BfQAv9wyWtgTyR3YkrduN5oQwzLgSIaUBZwjYQ=="],
+
+    "elm-test-rs": ["elm-test-rs@3.2.0-0", "", { "optionalDependencies": { "@mattpiz/elm-test-rs-darwin-arm64": "3.2.0-0", "@mattpiz/elm-test-rs-darwin-x64": "3.2.0-0", "@mattpiz/elm-test-rs-linux-arm": "3.2.0-0", "@mattpiz/elm-test-rs-linux-arm64": "3.2.0-0", "@mattpiz/elm-test-rs-linux-x64": "3.2.0-0", "@mattpiz/elm-test-rs-win32-x64": "3.2.0-0" }, "bin": { "elm-test-rs": "elm-test-rs.js" } }, "sha512-kvuLTzDueRwDWiV9emVUUeJ6taeGZnSFYDTMDbYvBZ6U6oqRDC78SvqV7f2Pr0CLBo9e93/c2yRE2EokCSj/qw=="],
+  }
+}
